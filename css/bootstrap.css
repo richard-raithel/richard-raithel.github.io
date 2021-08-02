@@ -1575,7 +1575,7 @@ pre {
     background-color: transparent;
     border: 0; }
   .form-control:focus {
-    color: #495057;
+    color: #6c757d;
     background-color: #fff;
     border-color: #e4eac3;
     outline: 0;
@@ -1632,7 +1632,7 @@ select.form-control:focus::-ms-value {
   padding-bottom: 0.375rem;
   margin-bottom: 0;
   line-height: 1.5;
-  color: #212529;
+  color:  ;
   background-color: transparent;
   border: solid transparent;
   border-width: 1px 0; }
