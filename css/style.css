@@ -568,6 +568,23 @@ a {
     margin-bottom: 5px;
     display: block; }
 
+.social-item {
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    background: #333;
+    position: relative;
+    border-radius: 50%;
+    font-size: 22px;
+    margin: 0 10px; }
+    .social-item > span {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+      transform: translate(-50%, -50%); }
+
 .site-footer {
   padding: 3em 0; }
   .site-footer p:last-child {
