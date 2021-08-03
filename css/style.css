@@ -576,11 +576,11 @@ a {
     position: relative;
     border-radius: 50%;
     font-size: 22px;
-    margin: 0 10px; }
+    margin: 0 0px; }
     .social-item > span {
       position: absolute;
       top: 50%;
-      left: 0%;
+      left: 50%;
       -webkit-transform: translate(-50%, -50%);
       -ms-transform: translate(-50%, -50%);
       transform: translate(-50%, -50%); }
