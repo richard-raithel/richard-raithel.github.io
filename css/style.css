@@ -726,3 +726,15 @@ a {
     cursor: pointer;
     text-decoration: none;
   }
+
+.button {
+  text-decoration: none;
+  font-size: .875rem;
+  font-weight: 300;
+  text-transform: uppercase;
+  display: inline-block;
+  border-radius: 1.5rem;
+  background-color: #fff;
+  color: black;
+  padding: 1rem 2rem;
+}
