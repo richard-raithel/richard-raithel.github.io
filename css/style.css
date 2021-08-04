@@ -660,7 +660,7 @@ a {
   opacity: 0;
   overflow: hidden;
   transition: .64s ease-in-out;}
-  .popup .popup-inner {
+  .popup-inner {
     position: relative;
     bottom: -100vw;
     right: -100vh;
@@ -673,43 +673,43 @@ a {
     background-color: #fff;
     transform: rotate(32deg);
     transition: .64s ease-in-out;}
-  .popup .popup__photo {
+  .popup__photo {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
     width: 40%;
     height: 100%;
     overflow: hidden;}
-    .popup .popup__photo img {
+    img {
       width: auto;
       height: 100%;}
-  .popup .popup__text {
+  .popup__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 60%;
     height: 100%;
     padding: 4rem;}
-    .popup .popup__text h1 {
+    h1 {
       font-size: 2rem;
       font-weight: 600;
       margin-bottom: 2rem;
       text-transform: uppercase;
       color: #0A0A0A;
     }
-    .popup .popup__text p {
+    p {
       font-size: .875rem;
       color: #686868;
       line-height: 1.5;
     }
-  .popup .popup:target {
+  .popup:target {
     visibility: visible;
     opacity: 1;}
     .popup-inner {
       bottom: 0;
       right: 0;
       transform: rotate(0);}
-  .popup .popup__close {
+  .popup__close {
     position: absolute;
     right: -1rem;
     top: -1rem;
