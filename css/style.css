@@ -702,10 +702,10 @@ a {
       color: #686868;
       line-height: 1.5;
     }
-  .popup:target {
+  .popup .popup:target {
     visibility: visible;
     opacity: 1;}
-    .popup-inner {
+    .popup .popup:target .popup-inner {
       bottom: 0;
       right: 0;
       transform: rotate(0);}
