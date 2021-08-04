@@ -680,7 +680,7 @@ a {
     width: 40%;
     height: 100%;
     overflow: hidden;}
-    img {
+    .popup .popup__photo img {
       width: auto;
       height: 100%;}
   .popup .popup__text {
@@ -690,14 +690,14 @@ a {
     width: 60%;
     height: 100%;
     padding: 4rem;}
-    h1 {
+    .popup .popup__text h1 {
       font-size: 2rem;
       font-weight: 600;
       margin-bottom: 2rem;
       text-transform: uppercase;
       color: #0A0A0A;
     }
-    p {
+    .popup .popup__text p {
       font-size: .875rem;
       color: #686868;
       line-height: 1.5;
