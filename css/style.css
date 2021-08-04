@@ -313,7 +313,7 @@ a {
   text-align: center; }
   .filters ul {
     padding: 0;
-    margin: 0 0 30px 0; }
+    margin: 0 50px 30px 0; }
     .filters ul li {
       display: inline-block;
       cursor: pointer;
@@ -348,7 +348,6 @@ a {
   margin-right: auto; }
 
 .portfolio-area .filters {
-  margin-bottom: 50px;
   text-align: center; }
 
 .portfolio-area .filters ul {
