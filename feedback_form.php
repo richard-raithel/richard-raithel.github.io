@@ -11,7 +11,7 @@ function filter_email_header($form_field) {
 return preg_replace('/[nr|!/<>^$%*&]+/','',$form_field);
 }
 
-$email  = filter_email_header($email);
+$email = filter_email_header($email);
 
 #Send email
 $headers = "From: $email";
