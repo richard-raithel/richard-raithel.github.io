@@ -705,7 +705,7 @@ a {
   .popup .popup:target {
     visibility: visible;
     opacity: 1;}
-    .popup .popup:target .popup-inner {
+    .popup-inner {
       bottom: 0;
       right: 0;
       transform: rotate(0);}
