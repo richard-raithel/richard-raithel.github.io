@@ -651,7 +651,7 @@ a {
   justify-content: center;
   position: fixed;
   width: 100vw;
-  height: 10vh;
+  height: 100vh;
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, .80);
@@ -660,10 +660,10 @@ a {
   opacity: 0;
   overflow: hidden;
   transition: .64s ease-in-out;}
-  .popup .-inner {
+  .popup .popup-inner {
     position: relative;
     bottom: -100vw;
-    right: -10vh;
+    right: -100vh;
     display: flex;
     align-items: center;
     max-width: 800px;
@@ -673,7 +673,7 @@ a {
     background-color: #fff;
     transform: rotate(32deg);
     transition: .64s ease-in-out;}
-  .popup .__photo {
+  .popup .popup__photo {
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
@@ -683,7 +683,7 @@ a {
     img {
       width: auto;
       height: 100%;}
-  .popup .__text {
+  .popup .popup__text {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -709,7 +709,7 @@ a {
       bottom: 0;
       right: 0;
       transform: rotate(0);}
-  .popup .__close {
+  .popup .popup__close {
     position: absolute;
     right: -1rem;
     top: -1rem;
