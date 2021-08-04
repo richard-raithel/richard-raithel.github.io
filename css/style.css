@@ -650,8 +650,8 @@ a {
   align-items: center;
   justify-content: center;
   position: fixed;
-  width: 100vw;
-  height: 100vh;
+  width: 50vw;
+  height: 50vh;
   bottom: 0;
   right: 0;
   background-color: rgba(0, 0, 0, .80);
@@ -662,8 +662,8 @@ a {
   transition: .64s ease-in-out;}
   .popup .-inner {
     position: relative;
-    bottom: -100vw;
-    right: -100vh;
+    bottom: -50vw;
+    right: -50vh;
     display: flex;
     align-items: center;
     max-width: 800px;
