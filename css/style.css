@@ -657,7 +657,7 @@ a {
   box-sizing: border-box;
 }
 
-.popup1 {
+.popup {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -714,7 +714,7 @@ a {
       color: #686868;
       line-height: 1.5;
     }
-  .popup1:target {
+  .popup:target {
     visibility: visible;
     opacity: 1;}
     .popup-inner {
