@@ -714,7 +714,7 @@ a {
       color: #686868;
       line-height: 1.5;
     }
-  .popup:target {
+  .popup1:target {
     visibility: visible;
     opacity: 1;}
     .popup-inner {
