@@ -75,8 +75,24 @@
 										<img src="images/database.jpg" alt="">
 									  </div>
 									  <div class="popup__text">
-										<h1>Data Parsing with Python</h1>
-										<p>Details.</p>
+										<h2>Data Parsing with Python</h2>
+										<p>Data parsing is the process of taking raw data and transforming it into a more structured
+											format. This is an enormously important step when getting data ready for insertion into a database.
+											The timeline for data parsing can vary greatly depending on the starting quality of the data.
+											Custom scripts will typically need to be written to transform the data into a form ready for database insertion.</p>
+								  		<h3>CASE STUDY</h3>
+										<h4>Problem:</h4>
+										<p>A Research and Development Department of a medium sized company requires all test machine data to be
+											stored in a central database. All machines export a csv file containing the raw data for each test performed.
+											The raw data contains the information desired to be placed in the database along with large amounts of undesired
+											information. Some simple mathematics (averages, standard deviations, etc.) need to be applied to the raw data to
+											ready it for database insertion. There is a local relational database with the desired table stucture already in
+											place.</p>
+										<h4>Solution:</h4>
+										<p>To begin, an example of the raw data file for each test machine was gathered. The database tables were then
+											compared to these example files. Based on this information, a python script was written and the pandas package used.
+											The pandas package enables python to extract the information within the csv file and manipulate it to the desired
+											format. The output of the python parser is a single row that is ready for insertion into the relational database.</p>
 									  </div>
 									  <a class="popup__close" href="#section-portfolio">X</a>
 									</div>
