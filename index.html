@@ -68,22 +68,35 @@
 				<div class="row grid" style="position: relative; height: 2916px;">
 					<div class="single-portfolio col-sm-4 all data" style="position: absolute; left: 0%; top: 0px;">
 						<div class="relative">
-							<img href="#exampleModalCenter" data-toggle="modal" class="image img-fluid" src="images/Icons/parse.jpg">
+							<img href="#exampleModalCenter" data-toggle="modal" class="image img-fluid" src="images/Icons/parse.jpg" style="cursor: pointer;">
 								<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
 							  <div class="modal-dialog modal-dialog-centered" role="document">
 								<div class="modal-content">
 								  <div class="modal-header">
-									<h5 class="modal-title" id="exampleModalLongTitle">Modal title</h5>
+									  <h2 class="modal-title" id="exampleModalLongTitle" style="color:black;"><strong>DATA PARSING WITH PYTHON</strong></h2>
 									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 									  <span aria-hidden="true">&times;</span>
 									</button>
 								  </div>
 								  <div class="modal-body">
-									...
-								  </div>
-								  <div class="modal-footer">
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-									<button type="button" class="btn btn-primary">Save changes</button>
+									<p>Data parsing is the process of taking raw data and transforming it into a more structured
+											format. This is an enormously important step when getting data ready for insertion into a database.
+											The timeline for data parsing can vary greatly depending on the starting quality of the data.
+											Custom scripts will typically need to be written to transform the data into a form ready for database insertion.<br>
+											<br></p>
+								  		<h5 style="color:black;"><strong>CASE STUDY</strong></h5>
+										<h5 style="color:black;">Problem:</h5>
+										<p>The Research and Development Department of a medium-sized company requires all product and test machine data to be
+											stored in a central database. All machines export a csv file containing the raw data for each test performed.
+											The raw data contains the information desired to be placed in the database along with large amounts of undesired
+											information. Some simple mathematics (averages, standard deviations, etc.) need to be applied to the raw data to
+											ready it for database insertion. There is a local relational database with the desired table structure already in
+											place.</p>
+										<h5 style="color:black;">Solution:</h5>
+										<p>To begin, an example of the raw data file for each test machine was gathered. The database tables were then
+											compared to these example files. Based on this information, a python script was written and the pandas package used.
+											The pandas package enables python to extract the information within the csv file and manipulate it to the desired
+											format. The output of the python parser is a single row that is ready for insertion into the relational database.</p>
 								  </div>
 								</div>
 							  </div>
@@ -96,33 +109,36 @@
 					</div>
 					<div class="single-portfolio col-sm-4 all data" style="position: absolute; left: 0%; top: 486px;">
 						<div class="relative">
-							<a href="#popup2"><img class="image img-fluid" src="images/Icons/lamp.jpg"></a>
-							  <div class="popup" id="popup2">
-								<div class="popup-inner">
-								  <div class="popup__photo">
-									<img src="images/database.jpg" alt="">
+							<img href="#exampleModalCenter2" data-toggle="modal" class="image img-fluid" src="images/Icons/lamp.jpg" style="cursor: pointer;">
+								<div class="modal fade" id="exampleModalCenter2" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle2" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									  <h2 class="modal-title" id="exampleModalLongTitle2" style="color:black;"><strong>LAMP STACK</strong></h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
 								  </div>
-								  <div class="popup__text">
-									<h2 style="color:black;"><strong>LAMP STACK</strong></h2>
-										<p>A LAMP stack is a set of open-source software to create databases, websites and web applications.
-											LAMP is an acronym, and these stacks typically consist of the Linux operating system, the Apache HTTP Server,
-											MySQL relational database management system, and the PHP programming language. The LAMP components are largely
-											interchangeable and not limited to the original selection.<br>
+								  <div class="modal-body">
+									<p>A LAMP stack is a set of open-source software to create databases, websites and web applications.
+										LAMP is an acronym, and these stacks typically consist of the Linux operating system, the Apache HTTP Server,
+										MySQL relational database management system, and the PHP programming language. The LAMP components are largely
+										interchangeable and not limited to the original selection.<br>
 											<br></p>
-								  		<h5 style="color:black;">CASE STUDY</h5>
-										<h5 style="color:black;">Problem:</h5>
-										<p>The Engineering Department of a small company requires all product data to be
-											stored in a central relational database. Due to the sensitive nature of the data being stored, cloud services are not
-											an option. The database must be low cost and expandable in the future to multiple facilities across the US.</p>
-										<h5 style="color:black;">Solution:</h5>
-										<p>Due to the sensitve data, low-cost requirements and plans for future expansion, a LAMP stack is the most sensible
-											option. Alternatives such as Microsoft SQL Server, Oracle Database and IBM Db2 include more bells and whistles but
-											come at a significantly higher cost. Since the company also plans to retain a data team to manage the database and
-											pipelines, the extra benefits do not outweigh the additional cost.</p>
+									<h5 style="color:black;"><strong>CASE STUDY</strong></h5>
+									<h5 style="color:black;">Problem:</h5>
+									<p>The Engineering Department of a small company requires all product data to be
+										stored in a central relational database. Due to the sensitive nature of the data being stored, cloud services are not
+										an option. The database must be low cost and expandable in the future to multiple facilities across the US.</p>
+									<h5 style="color:black;">Solution:</h5>
+									<p>Due to the sensitive data, low-cost requirements and plans for future expansion, a LAMP stack is the most sensible
+										option. Alternatives such as Microsoft SQL Server, Oracle Database and IBM Db2 include more bells and whistles but
+										come at a significantly higher cost. Since the company also plans to retain a data team to manage the database and
+										pipelines, the extra benefits do not outweigh the additional cost.</p>
 								  </div>
-								  <a class="popup__close" href="#section-portfolio">X</a>
 								</div>
 							  </div>
+							</div>
 						</div>
 						<div class="p-inner">
 							<h4>LAMP Stack</h4>
@@ -131,31 +147,34 @@
 					</div>
 					<div class="single-portfolio col-sm-4 all data" style="position: absolute; left: 0%; top: 972px;">
 						<div class="relative">
-							<a href="#popup3"><img class="image img-fluid" src="images/Icons/iot.jpg"></a>
-							  <div class="popup" id="popup3">
-								<div class="popup-inner">
-								  <div class="popup__photo">
-									<img src="images/database.jpg" alt="">
+							<img href="#exampleModalCenter3" data-toggle="modal" class="image img-fluid" src="images/Icons/iot.jpg" style="cursor: pointer;">
+								<div class="modal fade" id="exampleModalCenter3" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle3" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									  <h2 class="modal-title" id="exampleModalLongTitle3" style="color:black;"><strong>IoT WITH INFLUXDB & GRAFANA</strong></h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
 								  </div>
-								  <div class="popup__text">
-									<h2 style="color:black;"><strong>IoT WITH INFLUXDB & GRAFANA</strong></h2>
-										<p>InfluxDB is an open-source time series database (TSDB) developed by InfluxData. It is optimized for fast,
-											high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics,
-											IoT sensor data, and real-time analytics. Grafana is a multi-platform open source analytics and interactive visualization
-											web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.<br>
+								  <div class="modal-body">
+									<p>InfluxDB is an open-source time series database (TSDB) developed by InfluxData. It is optimized for fast,
+										high-availability storage and retrieval of time series data in fields such as operations monitoring, application metrics,
+										IoT sensor data, and real-time analytics. Grafana is a multi-platform open source analytics and interactive visualization
+										web application. It provides charts, graphs, and alerts for the web when connected to supported data sources.<br>
 											<br></p>
-								  		<h5 style="color:black;">CASE STUDY</h5>
-										<h5 style="color:black;">Problem:</h5>
-										<p>A small company has multiple devices that create real-time data that can be exported for storage or visualization. There
-											are two main types of devices; environmental monitoring and intermittent test machine data. It is desired that all streaming
-											data be stored in a database and be available to view online real-time. The solution must be low-cost and expandable in the future.</p>
-										<h5 style="color:black;">Solution:</h5>
-										<p>A low-cost, expandable solution is to implement influxDB as the database and grafana for visualizations. These are both
-											powerful open-source solutions used by some very large sompanies such as Uber, Robinhood and medium.com.</p>
+									<h5 style="color:black;"><strong>CASE STUDY</strong></h5>
+									<h5 style="color:black;">Problem:</h5>
+									<p>A small company has multiple devices that create real-time data that can be exported for storage or visualization. There
+										are two main types of devices; environmental monitoring and intermittent test machine data. It is desired that all streaming
+										data be stored in a database and be available to view online real-time. The solution must be low-cost and expandable in the future.</p>
+									<h5 style="color:black;">Solution:</h5>
+									<p>A low-cost, expandable solution is to implement influxDB as the database and grafana for visualizations. These are both
+										powerful open-source solutions used by some very large companies such as Uber, Robinhood and medium.com.</p>
 								  </div>
-								  <a class="popup__close" href="#section-portfolio">X</a>
 								</div>
 							  </div>
+							</div>
 						</div>
 						<div class="p-inner">
 							<h4>IoT</h4>
@@ -164,33 +183,36 @@
 					</div>
 					<div class="single-portfolio col-sm-4 all viz" style="position: absolute; left: 0%; top: 1458px;">
 						<div class="relative">
-							<a href="#popup4"><img class="image img-fluid" src="images/Icons/viz.jpg"></a>
-							  <div class="popup" id="popup4">
-								<div class="popup-inner">
-								  <div class="popup__photo">
-									<img src="images/database.jpg" alt="">
+							<img href="#exampleModalCenter4" data-toggle="modal" class="image img-fluid" src="images/Icons/viz.jpg" style="cursor: pointer;">
+								<div class="modal fade" id="exampleModalCenter4" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle4" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									  <h2 class="modal-title" id="exampleModalLongTitle4" style="color:black;"><strong>DASHBOARD DESIGN WITH MS POWERBI</strong></h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
 								  </div>
-								  <div class="popup__text">
-									<h2 style="color:black;"><strong>DASHBOARD DESIGN WITH MS POWERBI</strong></h2>
-										<p>A Power BI dashboard is a single page, often called a canvas, that tells a story through visualizations.
-											Because it's limited to one page, a well-designed dashboard contains only the highlights of that story. Readers can view
-											related reports for the details.<br>
-											<br></p>
-								  		<h5 style="color:black;">CASE STUDY</h5>
-										<h5 style="color:black;">Problem:</h5>
-										<p>The chemists in a research and development department of a large ocmpany need a way to easily compare and evaluate multiple
-											products simultaneously. They would like a radar plot to be the main visualization with the ability to select or deselect
-											multiple products and/or features. They also require a table to display the products data as filtering occurs.</p>
-										<h5 style="color:black;">Solution:</h5>
-										<p>To begin, data from a csv file is imported into Microsoft PowerBI. A query is then performed to clean the transform the data
-											into the most usable format for the dashboard. This entails renaming columns, creating calcualted columns as well as
-											creating new columns with normailzed versions of the data. Normalization enables the radad plot axis to be visualized on
-											a similar scale. Filters are then set up to allow selection or deselection and a table created to view a more standard
-											representation of the data.</p>
+								  <div class="modal-body">
+									<p>A Power BI dashboard is a single page, often called a canvas, that tells a story through visualizations.
+										Because it's limited to one page, a well-designed dashboard contains only the highlights of that story. Readers can view
+										related reports for the details.<br>
+										<br></p>
+									<h5 style="color:black;"><strong>CASE STUDY</strong></h5>
+									<h5 style="color:black;">Problem:</h5>
+									<p>The chemists in a research and development department of a large company need a way to easily compare and evaluate multiple
+										products simultaneously. They would like a radar plot to be the main visualization with the ability to select or deselect
+										multiple products and/or features. They also require a table to display the product data as filtering occurs.</p>
+									<h5 style="color:black;">Solution:</h5>
+									<p>To begin, data from a csv file is imported into Microsoft PowerBI. A query is then performed to clean the transform the data
+										into the most usable format for the dashboard. This entails renaming columns, creating calculated columns as well as
+										creating new columns with normalized versions of the data. Normalization enables the radar plot axis to be visualized on
+										a similar scale. Filters are then set up to allow selection or deselection and a table created to view a more standard
+										representation of the data.</p>
 								  </div>
-								  <a class="popup__close" href="#section-portfolio">X</a>
 								</div>
 							  </div>
+							</div>
 						</div>
 						<div class="p-inner">
 							<h4>Dashboard Design</h4>
@@ -199,39 +221,43 @@
 					</div>
 					<div class="single-portfolio col-sm-4 all analytics" style="position: absolute; left: 0%; top: 1944px;">
 						<div class="relative">
-							<a href="#popup5"><img class="image img-fluid" src="images/Icons/machine.jpg"></a>
-							  <div class="popup" id="popup5">
-								<div class="popup-inner">
-								  <div class="popup__photo">
-									<img src="images/database.jpg" alt="">
+							<img href="#exampleModalCenter5" data-toggle="modal" class="image img-fluid" src="images/Icons/machine.jpg" style="cursor: pointer;">
+								<div class="modal fade" id="exampleModalCenter5" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle5" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									  <h2 class="modal-title" id="exampleModalLongTitle5" style="color:black;"><strong>MACHINE LEARNING WITH PYTHON</strong></h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
 								  </div>
-								  <div class="popup__text">
-									<h2 style="color:black;"><strong>MACHINE LEARNING IN PYTHON</strong></h2>
-										<p>Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial
-											intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human
-											intervention. Python is an open-source, powerful programming language with an extensive machine learning package library
-											and massive community support.</p>
-								  		<h5 style="color:black;">CASE STUDY</h5>
-										<h5 style="color:black;">Problem:</h5>
-										<p>An online retailer is interested to know whether or not a customer will click 'Buy' or not based on their background and
-											website navigation behavior. The dataset includes 87 columns, with the last being the target 'Buy' variable.</p>
-										<h5 style="color:black;">Solution:</h5>
-										<p>There are seven main steps to any machine learning problem:<br>
-										<br>
-										<strong>Data Collection</strong> - Acquire data<br>
-										<strong>Data Preparation</strong> - Clean, randomize, visualize and split into train and test<br>
-										<strong>Choosing a Model</strong> - choose the correct model based on the task<br>
-										<strong>Training the Model</strong> - maximize correct outcome for question asked<br>
-										<strong>Evaluating the Model</strong> - measure performance<br>
-										<strong>Parameter Tuning</strong> - hyperparameter tuning to improve performance<br>
-										<strong>Making Predictions</strong> - use test data set for true accuracy of model<br>
-										<br>
-										Using the preceding steps, an robust model was developed that accurately predicted customer actions 67% of the time. In this
-										case, the accuracy of the model is limited by the quality and availability of data.</p>
+								  <div class="modal-body">
+									<p>Machine learning is a method of data analysis that automates analytical model building. It is a branch of artificial
+										intelligence based on the idea that systems can learn from data, identify patterns and make decisions with minimal human
+										intervention. Python is an open-source, powerful programming language with an extensive machine learning package library
+										and massive community support.<br>
+										<br></p>
+									<h5 style="color:black;"><strong>CASE STUDY</strong></h5>
+									<h5 style="color:black;">Problem:</h5>
+									<p>An online retailer is interested to know whether a customer will click 'Buy' or not based on their background and
+										website navigation behavior. The dataset includes 87 columns, with the last being the target 'Buy' variable.</p>
+									<h5 style="color:black;">Solution:</h5>
+									<p>There are seven main steps to any machine learning problem:<br>
+									<br>
+									<strong>Data Collection</strong> - Acquire data<br>
+									<strong>Data Preparation</strong> - Clean, randomize, visualize and split into train and test<br>
+									<strong>Choosing a Model</strong> - choose the correct model based on the task<br>
+									<strong>Training the Model</strong> - maximize correct outcome for question asked<br>
+									<strong>Evaluating the Model</strong> - measure performance<br>
+									<strong>Parameter Tuning</strong> - hyperparameter tuning to improve performance<br>
+									<strong>Making Predictions</strong> - use test data set for true accuracy of model<br>
+									<br>
+									Using the preceding steps, an robust model was developed that accurately predicted customer actions 67% of the time. In this
+									case, the accuracy of the model is limited by the quality and availability of data.</p>
 								  </div>
-								  <a class="popup__close" href="#section-portfolio">X</a>
 								</div>
 							  </div>
+							</div>
 						</div>
 						<div class="p-inner">
 							<h4>Machine Learning</h4>
@@ -240,29 +266,32 @@
 					</div>
 					<div class="single-portfolio col-sm-4 all web" style="position: absolute; left: 0%; top: 2430px;">
 						<div class="relative">
-							<a href="#popup6"><img class="image img-fluid" src="images/Icons/web.jpg"></a>
-							  <div class="popup" id="popup6">
-								<div class="popup-inner">
-								  <div class="popup__photo">
-									<img src="images/database.jpg" alt="">
+							<img href="#exampleModalCenter6" data-toggle="modal" class="image img-fluid" src="images/Icons/web.jpg" style="cursor: pointer;">
+								<div class="modal fade" id="exampleModalCenter6" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle6" aria-hidden="true">
+							  <div class="modal-dialog modal-dialog-centered" role="document">
+								<div class="modal-content">
+								  <div class="modal-header">
+									  <h2 class="modal-title" id="exampleModalLongTitle6" style="color:black;"><strong>FRONT-END WEB DEVELOPMENT</strong></h2>
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									  <span aria-hidden="true">&times;</span>
+									</button>
 								  </div>
-								  <div class="popup__text">
-									<h2 style="color:black;"><strong>FRONT-END WEB DEVELOPMENT</strong></h2>
-										<p>Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and
-											JavaScript, so that users can view and interact with that website.<br>
-											<br></p>
-								  		<h5 style="color:black;">CASE STUDY</h5>
-										<h5 style="color:black;">Problem:</h5>
-										<p>A freelance data scientist requires a website portfolio to connect with customers. It must include the following sections: about me,
-											portfolio, resume, services, blog and contact info. It will be hosted on github pages so must be static (no php, ruby, python).</p>
-										<h5 style="color:black;">Solution:</h5>
-										<p>Instead of coding an entire website from scratch, a free template was acquired and modified to fit the needs of the customer.
-											This included changing various font and color as well as restructuring some formatting. It also included adding in modals (popups)
-											for the portfolio section.</p>
+								  <div class="modal-body">
+									<p>Front-end web development is the development of the graphical user interface of a website, through the use of HTML, CSS, and
+										JavaScript, so that users can view and interact with that website.<br>
+										<br></p>
+									<h5 style="color:black;"><strong>CASE STUDY</strong></h5>
+									<h5 style="color:black;">Problem:</h5>
+									<p>A freelance data scientist requires a website portfolio to connect with customers. It must include the following sections: about me,
+										portfolio, resume, services, blog and contact info. It will be hosted on github pages so must be static (no php, ruby, python).</p>
+									<h5 style="color:black;">Solution:</h5>
+									<p>Instead of coding an entire website from scratch, a free template was acquired and modified to fit the needs of the customer.
+										This included changing various font and color as well as restructuring some formatting. It also included adding in modals (popups)
+										for the portfolio section.</p>
 								  </div>
-								  <a class="popup__close" href="#section-portfolio">X</a>
 								</div>
 							  </div>
+							</div>
 						</div>
 						<div class="p-inner">
 							<h4>Front-End Web Development</h4>
