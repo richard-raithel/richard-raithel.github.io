@@ -182,14 +182,20 @@ a {
 .site-section {
   padding: 5em 0; }
 
+.site-section-portfolio {
+  padding: 10em 0; }
+
+.site-section-resume {
+  padding: 10em 0; }
+
 .site-section-about {
   padding: 10em 0; }
 
 .site-section-services {
-  padding: 5em 0 25em; }
+  padding: 5em 0; }
 
-.site-section-blog {
-  padding: 5em 0 15em; }
+/*.site-section-blog {*/
+/*  padding: 5em 0 15em; }*/
 
 .section-heading {
   margin-bottom: 30px;
